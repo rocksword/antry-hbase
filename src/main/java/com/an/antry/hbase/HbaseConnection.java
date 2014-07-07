@@ -9,7 +9,6 @@ import org.apache.hadoop.hbase.client.HConnectionManager;
 
 public class HbaseConnection {
     private static String slaves_1 = "ss1,ss2,ss3";
-    private static String slaves_2 = "s1,s2,s3";
 
     public synchronized static Configuration getConf() {
         Configuration conf = HBaseConfiguration.create();
